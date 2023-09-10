@@ -5,6 +5,9 @@ export interface CustomButtonProps {
     containerStyles?: string; // TODO ?: opsional /nilainya itu bisa ditentukan atau tidak tentukan
     handleClick?: MouseEventHandler<HTMLButtonElement>;
     btnType?: "button" | "submit";
+    textStyles?: string;
+    rightIcon?: string;
+    isDisabled?: boolean;
 }
 
 export interface SearchManufacturerProps {
