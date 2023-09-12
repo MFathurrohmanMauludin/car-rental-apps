@@ -69,7 +69,7 @@ export default function Home() {
           </div>
         </div>
 
-        {allCars.length >= 0 ? (
+        {allCars.length >= 0 && allCars.length !== 0 ? (
           <section>
             <div className="home__cars-wrapper">
               {allCars?.map((car) =>
